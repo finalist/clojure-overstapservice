@@ -1,4 +1,8 @@
+
+![Clojure](http://clojure-conj.org/images/clojure.png)
+
 # De Clojure overstapservice
+
 
 Deze overstapservice is samengesteld voor programmeurs die eens iets anders willen. Clojure is dan een prima, volwassen alternatief, want:
 
@@ -12,6 +16,7 @@ Deze overstapservice is samengesteld voor programmeurs die eens iets anders will
 * Clojure ... etc
 
 Als je daadwerkelijk die overstap wil maken, dan hier wat pointers die je daarbij zouden kunnen helpen.
+
 
 ## Boeken
 
@@ -72,4 +77,42 @@ Als een complete academische cursus je net iets teveel is: Kyle Kingsbury ([@aph
 Een andere manier om je Clojure skills te testen, is via het oplossen van de programmeerproblemen van 4Clojure.
 
 <a href=""><img src="http://www.4clojure.com/images/4clj-logo-small.png" width=150/></a>
+
+## Meetups
+
+Via meetups kun je in een kleinschalige, informele setting een avondje uithangen met die andere Clojure ontwikkelaars, die hier in Nederlands actief zijn.
+
+### [The Amsterdam Clojure Meetup](http://www.meetup.com/the-amsterdam-clojure-meetup-group/)
+
+De Amsterdamse meetup over Clojure wordt georganiseerd door Carlo Sciolla ([@skuro](https://twitter.com/skuro)).
+
+### [Functional Rotterdam](http://www.meetup.com/Functional-Rotterdam/)
+
+Rotterdam had ooit een Clojure Meetup, maar organisator Vijay Kiran ([@vijaykiran](https://twitter.com/vijaykiran) heeft met Functional Rotterdam de scope van de meetup verbreed naar ook andere programmeertalen.
+
+## Conferenties
+
+Conferenties helpen om je in een paar dagen tijd helemaal te wentelen is van alles wat maar met Clojure te maken heeft. Daarnaast biedt het je de gelegenheid in contact te treden met ontwikkelaars van over de grens.
+
+De meest conferenties rondom Clojure worden georganiseerd door Cognitect. De enige 'onafhankelijke' Clojure conferentie is een initiatief van Skills Matter.
+
+<img src="http://cognitect-labs.github.io/transducers-js/assets/css/cognitect.jpg" width=150/>
+
+<img src="https://d2rrjv931ezem9.cloudfront.net/assets/logo_proper-ccaff0ec01a9850c84d8bd6d2e488e69.png" width=200/>
+
+### [Clojure/conj](http://clojure-conj.org)
+
+Laatste editie: 16-18 november, 2015 in Philadelphia (Pennsylvania, USA).
+
+### [Euroclojure](http://euroclojure.org)
+
+Laatste editie: 25-26 juni, 2015 in Barcelona (Spanje)
+
+### [Clojure/West](http://clojurewest.org)
+
+Laatste editie: 20-22 april, Portland (Oregon, USA)
+
+### [Clojure eXchange](https://skillsmatter.com/conferences/6861-clojure-exchange-2015)
+
+Volgende editie: 3-4 december, Londen (UK)
 
