@@ -1,6 +1,17 @@
 # De Clojure overstapservice
 
-Deze overstapservice is samengesteld voor programmeurs die eens iets anders willen. Clojure is  dan een prima, volwassen alternatief voor elke andere programmeertaal. Als je daadwerkelijk die overstap wil maken, dan is hier een aantal pointers die je daarbij zouden kunnen helpen.
+Deze overstapservice is samengesteld voor programmeurs die eens iets anders willen. Clojure is dan een prima, volwassen alternatief, want:
+
+* Clojure is simpel
+* Clojure is data-georiënteerd
+* Clojure vereist minder regels code
+* Clojure ondersteunt meerdere platformen
+* Clojure is interactief
+* Clojure is full stack
+* Clojure voorkomt callback hell
+* Clojure ... etc
+
+Als je daadwerkelijk die overstap wil maken, dan hier wat pointers die je daarbij zouden kunnen helpen.
 
 ## Boeken
 
