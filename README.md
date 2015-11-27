@@ -116,3 +116,38 @@ Laatste editie: 20-22 april, Portland (Oregon, USA)
 
 Volgende editie: 3-4 december, Londen (UK)
 
+## Videos
+
+De meeste conferenties leggen hun talks vast op video, waardoor ze later online zijn te bekijken door een groter publiek. Hieronder hebben een aantal videoregistraties van inmiddels 'legendarische' voordrachten op het gebied van Clojure.
+
+### Rich Hickey: Simple Made Easy
+
+De voordracht die Rich Hickey hield op Strange Loop in 2011. Rich gebruikt de term 'de-complecting', en geeft hiermee een van de belangrijkste drijvende krachten achter het ontwerp van Clojure aan. Clojure is niet zozeer gemakkelijk ('easy'), maar wel eenvoudig ('simple').
+
+[Video](http://www.infoq.com/presentations/Simple-Made-Easy) | [Transcript](https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/SimpleMadeEasy.md)
+
+<a href="http://www.infoq.com/presentations/Simple-Made-Easy"><img src="http://cdn.infoq.com/statics_s1_20151125-0108/resource/presentations/Simple-Made-Easy/en/slides/sl1.jpg" width=250/></a>
+
+### Rich Hickey: Are We There Yet?
+
+In deze talk legt Rich Hickey aan de hand van quotes van Whitehead uit wat de waarde is van immutable datastructures, en hoe dit via persistent datastructures werkt in Clojure.
+
+[Video](http://www.infoq.com/presentations/Are-We-There-Yet-Rich-Hickey) | [Transcript](https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/AreWeThereYet.md)
+
+<a href="http://www.infoq.com/presentations/Are-We-There-Yet-Rich-Hickey"><img src="http://image.slidesharecdn.com/hickeyjvmsummit2009-100702080446-phpapp02/95/hickey-jvm-summit2009-1-728.jpg?cb=1278057965" width=250/></a>
+
+### Rich Hickey: Hammock Driven Development
+
+Met een knipoog naar _fads_ zoals Test Driven Development, vertelt Rich Hickey over de waarde van de hangmat bij het oplossen van programmeerproblemen. Want soms helpt het om even niet te coderen, maar om goed na te denken.
+
+[Video](https://www.youtube.com/watch?v=f84n5oFoZBc) | [Transcript](https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/HammockDrivenDev.md)
+
+<a href="https://www.youtube.com/watch?v=f84n5oFoZBc"><img src="http://incanter.org/images/misc/hammock-driven-dev.png" width=250/></a>
+
+### David Nolen: The Functional Final Frontier
+
+David Nolen helpt je hier om over te stappen van een MVC-architectuur, naar een meer functionele smaak van User Interface design, en hoe de persistent datastructures van Clojure(Script) daarbij helpen.
+
+[Video](https://www.youtube.com/watch?v=DMtwq3QtddY) | [Transcript](https://github.com/matthiasn/talk-transcripts/blob/master/Nolen_David/FunctionalFinalFrontier.md)
+
+<img src="https://github.com/matthiasn/talk-transcripts/raw/master/Nolen_David/FinalFrontier/00.00.00.jpg" width=250/>
