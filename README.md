@@ -84,7 +84,7 @@ Via meetups kun je in een kleinschalige, informele setting een avondje uithangen
 
 ### [The Amsterdam Clojure Meetup](http://www.meetup.com/the-amsterdam-clojure-meetup-group/)
 
-De Amsterdamse meetup over Clojure wordt georganiseerd door Carlo Sciolla ([@skuro](https://twitter.com/skuro)).
+De Amsterdamse meetup over Clojure ([@amsclj](https://twitter.com/amsclj)) wordt georganiseerd door Carlo Sciolla ([@skuro](https://twitter.com/skuro)).
 
 ### [Functional Rotterdam](http://www.meetup.com/Functional-Rotterdam/)
 
@@ -151,3 +151,46 @@ David Nolen helpt je hier om over te stappen van een MVC-architectuur, naar een 
 [Video](https://www.youtube.com/watch?v=DMtwq3QtddY) | [Transcript](https://github.com/matthiasn/talk-transcripts/blob/master/Nolen_David/FunctionalFinalFrontier.md)
 
 <img src="https://github.com/matthiasn/talk-transcripts/raw/master/Nolen_David/FinalFrontier/00.00.00.jpg" width=250/>
+
+## Podcast
+
+### [Cognicast](http://blog.cognitect.com/cognicast/)
+
+Regelmatig verschijnende podcast van Cognitect, gehost door Craig Andera ([@craigandera](https://twitter.com/craigandera)).
+
+<img src="http://cognitect-labs.github.io/transducers-js/assets/css/cognitect.jpg" width=150/>
+
+
+## Blogs
+
+### [Planet Clojure](http://planet.clojure.in)
+
+Een metablog over Clojure, bijgehouden door Baishampayan Ghose ([@ghoseb](https://twitter.com/ghoseb) en Alex Ott ([@alexott_en](https://twitter.com/alexott_en)). Op dit moment houdt Planet Clojure ongeveer 839 blogs bij.
+
+## Newsletter
+
+### [Clojure Gazette]((http://www.clojuregazette.com))
+
+Je kunt je [hier](http://www.clojuregazette.com) abonneren op Clojure Gazette, de newsletter van Eric Normand ([@ericnormand](https://twitter.com/ericnormand)). Deze verschijnt elke week met een aantal interessante, van commentaar voorziene links.
+
+Eric houdt ook een blog bij, [LispCast](http://www.lispcast.com), en biedt ook online mentoring via [PurelyFunctional.tv](http://www.purelyfunctional.tv).
+
+<img src="http://www.lispcast.com/img/Logo@2x.png" width=200/>
+
+## Community
+
+### [Google Groups](https://groups.google.com/forum/#!forum/clojure)
+
+Het Clojure forum, gehost door Google Groups.
+
+<img src="http://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width=200/>
+
+### IRC
+
+\#clojure
+
+### [Clojurians](http://clojurians.net) Slack Chat
+
+Met op dit moment 3762 geregistreerde slackers.
+
+<img src="https://slack.com/img/slack_hash_128.v1442100037.png"/>
