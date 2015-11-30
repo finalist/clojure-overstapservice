@@ -170,29 +170,41 @@ Conferenties helpen om je in een paar dagen tijd helemaal te wentelen is van all
 
 De meest conferenties rondom Clojure worden georganiseerd door Cognitect. De enige 'onafhankelijke' Clojure conferentie is een initiatief van Skills Matter.
 
+Mocht het je niet lukken om erbij bij te zijn dan kun je de talks alsnog bekijken via [ClojureTV](https://www.youtube.com/user/ClojureTV) of de [Skillscasts](https://skillsmatter.com/conferences/1956-clojure-exchange-2014#skillscasts). 
+
 <img src="http://cognitect-labs.github.io/transducers-js/assets/css/cognitect.jpg" width=150/>
 
 <img src="https://d2rrjv931ezem9.cloudfront.net/assets/logo_proper-ccaff0ec01a9850c84d8bd6d2e488e69.png" width=200/>
 
-### [Clojure/conj](http://clojure-conj.org)
+### [Clojure/West](http://clojurewest.org)
 
-Laatste editie: 16-18 november, 2015 in Philadelphia (Pennsylvania, USA).
+Laatste editie: 20-22 april, 2015, Portland (Oregon, USA)
+
+[Clojure/West 2015 Videos](https://www.youtube.com/playlist?list=PLZdCLR02grLrKAOj8FJ1GGmNM5l7Okz0a)
 
 ### [Euroclojure](http://euroclojure.org)
 
 Laatste editie: 25-26 juni, 2015 in Barcelona (Spanje)
 
-### [Clojure/West](http://clojurewest.org)
+[Euroclojure 2015 videos](https://www.youtube.com/playlist?list=PLZdCLR02grLoBx0Y5ZrpdmLxc160PIwzQ)
 
-Laatste editie: 20-22 april, Portland (Oregon, USA)
+### [Clojure/conj](http://clojure-conj.org)
+
+Laatste editie: 16-18 november, 2015 in Philadelphia (Pennsylvania, USA).
+
+[Clojure/conj 2015 videos](https://www.youtube.com/playlist?list=PLZdCLR02grLrl5ie970A24kvti21hGiOf)
 
 ### [Clojure eXchange](https://skillsmatter.com/conferences/6861-clojure-exchange-2015)
+
+Laatste editie: 4-5 december, Londen (UK)
+
+[ClojureX 2014 videos](https://skillsmatter.com/conferences/1956-clojure-exchange-2014#skillscasts)
 
 Volgende editie: 3-4 december, Londen (UK)
 
 ## Videos
 
-De meeste conferenties leggen hun talks vast op video, waardoor ze later online zijn te bekijken door een groter publiek. Hieronder hebben een aantal videoregistraties van inmiddels 'legendarische' voordrachten op het gebied van Clojure.
+Hieronder hebben een aantal videoregistraties van inmiddels 'legendarische' voordrachten op het gebied van Clojure.
 
 ### Rich Hickey: Simple Made Easy
 
@@ -253,7 +265,7 @@ Eric houdt zelf ook een blog bij, [LispCast](http://www.lispcast.com). Zo heeft 
 
 ## Community
 
-De Clojure community is een relatief kleine community. Echter, Clojurians zijn actief en behulpzaam, zoals je zult ondervinden bij onderstaande initiatieven.
+Er komt een moment, vroeger of later, dat je vast komt te zitten. Dat is het moment waarop je community om hulp kunt vragen. De Clojure community is een relatief kleine community. Echter, Clojurians zijn actief en behulpzaam, zoals je zult ondervinden bij onderstaande initiatieven.
 
 ### [Google Groups](https://groups.google.com/forum/#!forum/clojure)
 
