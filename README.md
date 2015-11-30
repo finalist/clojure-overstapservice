@@ -225,7 +225,7 @@ Er worden talloze blog-artikelen over het onderwerp geschreven, waaronder velen 
 
 Een metablog over Clojure, bijgehouden door Baishampayan Ghose ([@ghoseb](https://twitter.com/ghoseb) en Alex Ott ([@alexott_en](https://twitter.com/alexott_en)). Op dit moment houdt Planet Clojure ongeveer 839 blogs bij.
 
-### [Clojure Gazette]((http://www.clojuregazette.com)
+### [Clojure Gazette](http://www.clojuregazette.com)
 
 Je kunt je [hier](http://www.clojuregazette.com) abonneren op Clojure Gazette, de newsletter van Eric Normand ([@ericnormand](https://twitter.com/ericnormand)). Deze verschijnt elke week met een aantal van commentaar voorziene links naar interessante blogartikelen.
 
