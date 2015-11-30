@@ -247,7 +247,7 @@ Het Clojure forum, gehost door Google Groups.
 
 Tagged questions voor Clojure op Stack Overflow.
 
-<img src="http://stackoverflow.com/" width=200/>
+<img src="https://upload.wikimedia.org/wikipedia/en/9/95/Stack_Overflow_website_logo.png" width=150/>
 
 ### IRC
 
