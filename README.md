@@ -32,9 +32,13 @@ Als je daadwerkelijk die overstap wil maken, dan zijn hier wat pointers die je d
 
 ## Tools
 
-Je kunt Clojure direct uitproberen, via [Try Clojure](http://www.tryclj.com).
+Je kunt Clojure direct uitproberen, via de website [Try Clojure](http://www.tryclj.com).
 
 <a href="http://www.tryclj.com"><img src="http://learn-clojure.com/images/try_clojure.png"/></a>
+
+Er is ook een mobiele app, namelijk [Replete](http://blog.fikesfarm.com/posts/2015-07-20-ios-clojurescript-repl-available-in-app-store.html) voor iOS. De Android-versie heet [Replicator](http://tahmid.me/posts/2015-07-15-bootstrapped-cljs-repl-for-android.html) en zal binnenkort verschijnen.
+
+<img src="http://blog.fikesfarm.com/img/replete-screenshot.png" width=200/>
 
 Maar als Clojure op je eigen machine wil draaien, dan heb je een editor en een build tool nodig.
 
@@ -142,21 +146,23 @@ Als een complete academische cursus je net iets teveel is: Kyle Kingsbury ([@aph
 
 ### [4Clojure](https://www.4clojure.com)
 
-Een andere manier om je Clojure skills te testen, is via het oplossen van de programmeerproblemen van 4Clojure.
+Een andere manier om je Clojure skills te testen, is via het oplossen van de programmeerproblemen van 4Clojure. Naast de webversie is er ook een Android-versie [beschikbaar op Google Play](https://play.google.com/store/apps/details?id=org.bytopia.foreclojure).
 
 <a href=""><img src="http://www.4clojure.com/images/4clj-logo-small.png" width=150/></a>
 
 ## Meetups
 
-Via meetups kun je in een kleinschalige, informele setting een avondje uithangen met die andere Clojure ontwikkelaars, die hier in Nederlands actief zijn.
+Via lokale meetups kun je in een kleinschalige, informele setting een avondje uithangen met die andere Clojure ontwikkelaars, die hier in Nederlands actief zijn.
 
 ### [The Amsterdam Clojure Meetup](http://www.meetup.com/the-amsterdam-clojure-meetup-group/)
 
-De Amsterdamse meetup over Clojure ([@amsclj](https://twitter.com/amsclj)) wordt georganiseerd door Carlo Sciolla ([@skuro](https://twitter.com/skuro)).
+De Amsterdamse meetup over Clojure ([@amsclj](https://twitter.com/amsclj)) wordt georganiseerd door Carlo Sciolla ([@skuro](https://twitter.com/skuro)). Deze community noemt zichzelf de [Amsterdam Clojurians](http://amsclj.nl).
+
+<img src="http://amsclj.nl/images/newflag.png" width=200/>
 
 ### [Functional Rotterdam](http://www.meetup.com/Functional-Rotterdam/)
 
-Rotterdam had ooit een Clojure Meetup, maar organisator Vijay Kiran ([@vijaykiran](https://twitter.com/vijaykiran) heeft met Functional Rotterdam de scope van de meetup verbreed naar ook andere programmeertalen.
+Rotterdam had ooit een Clojure Meetup, maar organisator Vijay Kiran ([@vijaykiran](https://twitter.com/vijaykiran)) heeft met Functional Rotterdam de scope van de meetup verbreed naar ook andere programmeertalen.
 
 ## Conferenties
 
@@ -241,7 +247,7 @@ Een metablog over Clojure, bijgehouden door Baishampayan Ghose ([@ghoseb](https:
 
 Je kunt je [hier](http://www.clojuregazette.com) abonneren op Clojure Gazette, de newsletter van Eric Normand ([@ericnormand](https://twitter.com/ericnormand)). Deze verschijnt elke week met een aantal van commentaar voorziene links naar interessante blogartikelen.
 
-Eric houdt zelf ook een blog bij, [LispCast](http://www.lispcast.com), en biedt daarnaast online mentoring via [PurelyFunctional.tv](http://www.purelyfunctional.tv).
+Eric houdt zelf ook een blog bij, [LispCast](http://www.lispcast.com). Zo heeft hij onlangs het artikel [Where to find time to learn clojure?](http://www.lispcast.com/where-to-find-time-to-learn-clojure?) gepost, met daarin een aantal waardevolle tips om jezelf in de kortst mogelijke tijd in Clojure onder te dompelen.
 
 <img src="http://www.lispcast.com/img/Logo@2x.png" width=150/>
 
@@ -269,4 +275,4 @@ Tagged questions voor Clojure op Stack Overflow.
 
 Met op dit moment 3762 geregistreerde slackers.
 
-<img src="http://slack.com/img/slack_hash_128.v1442100037.png" width=100/>
+<img src="http://slack.com/img/slack_hash_128.v1442100037.png" width=75/>
