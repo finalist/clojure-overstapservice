@@ -3,8 +3,9 @@
 
 # De Clojure overstapservice
 
+Deze overstapservice is samengesteld voor programmeurs die eens iets anders willen. 
 
-Deze overstapservice is samengesteld voor programmeurs die eens iets anders willen. Clojure is dan een prima, volwassen alternatief, want:
+Clojure is dan een prima, volwassen alternatief, want:
 
 * Clojure is simpel
 * Clojure is data-georiënteerd
@@ -15,7 +16,62 @@ Deze overstapservice is samengesteld voor programmeurs die eens iets anders will
 * Clojure voorkomt callback hell
 * Clojure ... etc
 
-Als je daadwerkelijk die overstap wil maken, dan hier wat pointers die je daarbij zouden kunnen helpen.
+Als je daadwerkelijk die overstap wil maken, dan zijn hier wat pointers die je daarbij zouden kunnen helpen.
+
+## Tools
+
+Je kunt Clojure direct uitproberen, via [Try Clojure](http://www.tryclj.com).
+
+<a href="http://www.tryclj.com"><img src="http://learn-clojure.com/images/try_clojure.png"/></a>
+
+Maar als Clojure op je eigen machine wil draaien, dan heb je een editor en een build tool nodig.
+
+### Editors
+
+#### [Emacs](https://www.gnu.org/software/emacs/)
+
+Onder Clojure-ontwikkelaars is Emacs [het meest populair](https://cognitect.wufoo.com/reports/state-of-clojure-2014-results/), waarschijnlijk omdat het de meest krachtige editor is voor Lisp-achtige talen. Je hebt in de vorm van [CIDER](https://github.com/clojure-emacs/cider) een ingebouwde REPL en debugger, en via [ParEdit](http://www.emacswiki.org/emacs/ParEdit) beschik je over de mogelijkheid van _structural editing_. 
+
+Echter, als Emacs nieuw voor je is, hou dan wel rekening met een steile leercurve. Maar voor de dapperen onder ons: op de [Clojure for the Brave and True](http://www.braveclojure.com/basic-emacs/) website staan prima aanwijzingen om  met Emacs aan de slag te gaan.
+
+<img src="http://www.braveclojure.com/assets/images/cftbat/basic-emacs/emacs-fresh.png" width=200/>
+
+#### [vim-fireplace](https://github.com/tpope/vim-fireplace)
+
+Voor vim-adepten bestaat bovendien de [Spacemacs](https://github.com/syl20bnr/spacemacs) distributie, maar als je liever voor de 'echte' vim gaat, dan kun je [fireplace](https://github.com/tpope/vim-fireplace) gebruiken, dat ook letterlijk 'REPL' bevat.
+
+
+#### [Cursive](https://cursiveclojure.com)
+
+Cursive is een Clojure-plugin voor IntelliJ. Het heeft een ingebouwde REPL,  biedt ondersteuning voor debugging en structural editing, en daarnaast natuurlijk alle features die de IDE van IntelliJ je biedt. Het is een commercieel product, maar onder bepaalde voorwaarden mag je 'm gratis gebruiken.
+
+<img src="https://cursiveclojure.com/images/logo.png" width=200/>
+
+#### [CounterClockwise](http://doc.ccw-ide.org)
+
+Als je meer een fan bent van de Eclipse IDE, dan is wellicht CounterClockwise iets voor jou.
+
+<img src="http://www.eclipse.org/eclipse.org-common/themes/Nova/images/eclipse-800x426.png" width=200/>
+
+#### [Light Table](http://lighttable.com)
+
+Is een IDE te zwaar voor je, dan is de lichtgewicht editor Light Table een prima alternatief. Eén van de opvollende features van Light Table is de instant feedback die je krijgt in de vorm van uitgerekende datawaarden, zodat je kunt zien hoe de data door je programma stroomt.
+
+<img src="http://lighttable.com/images/logo.png" width=100/>
+
+### Build Tools
+
+#### [Leiningen](http://leiningen.org)
+
+Leiningen was lange tijd (en is nog steeds) de de-facto build tool voor Clojure.
+
+<img src="http://leiningen.org/img/leiningen.jpg" width=75/>
+
+#### [boot](http://boot-clj.com)
+
+Tegenwoordig is het niet langer [Leiningen vs. the ants](https://en.wikipedia.org/wiki/Leiningen_Versus_the_Ants), maar Leiningen vs. boot. Zoals de makers het zelf uitdrukken: het is geen build tool, het is build _tooling_, omdat het je in staat stelt om verschillende bouwstappen te combineren tot een _build pipeline_.
+
+<img src="http://boot-clj.com/assets/images/logos/boot-logo-3.png" width=100/>
 
 
 ## Boeken
@@ -146,7 +202,7 @@ Met een knipoog naar _fads_ zoals Test Driven Development, vertelt Rich Hickey o
 
 ### David Nolen: The Functional Final Frontier
 
-David Nolen helpt je hier om over te stappen van een MVC-architectuur, naar een meer functionele smaak van User Interface design, en hoe de persistent datastructures van Clojure(Script) daarbij helpen.
+In deze talk helpt David Nolen je om over te stappen van een MVC-architectuur, naar een meer functionele smaak van User Interface design, en hoe de persistent datastructures van Clojure(Script) daarbij helpen.
 
 [Video](https://www.youtube.com/watch?v=DMtwq3QtddY) | [Transcript](https://github.com/matthiasn/talk-transcripts/blob/master/Nolen_David/FunctionalFinalFrontier.md)
 
@@ -163,27 +219,35 @@ Regelmatig verschijnende podcast van Cognitect, gehost door Craig Andera ([@crai
 
 ## Blogs
 
+Er worden talloze blog-artikelen over het onderwerp geschreven, waaronder velen die geschikt zijn voor de beginnende Clojure-programmeur.
+
 ### [Planet Clojure](http://planet.clojure.in)
 
 Een metablog over Clojure, bijgehouden door Baishampayan Ghose ([@ghoseb](https://twitter.com/ghoseb) en Alex Ott ([@alexott_en](https://twitter.com/alexott_en)). Op dit moment houdt Planet Clojure ongeveer 839 blogs bij.
 
-## Newsletter
+### [Clojure Gazette]((http://www.clojuregazette.com)
 
-### [Clojure Gazette]((http://www.clojuregazette.com))
+Je kunt je [hier](http://www.clojuregazette.com) abonneren op Clojure Gazette, de newsletter van Eric Normand ([@ericnormand](https://twitter.com/ericnormand)). Deze verschijnt elke week met een aantal van commentaar voorziene links naar interessante blogartikelen.
 
-Je kunt je [hier](http://www.clojuregazette.com) abonneren op Clojure Gazette, de newsletter van Eric Normand ([@ericnormand](https://twitter.com/ericnormand)). Deze verschijnt elke week met een aantal interessante, van commentaar voorziene links.
+Eric houdt zelf ook een blog bij, [LispCast](http://www.lispcast.com), en biedt daarnaast online mentoring via [PurelyFunctional.tv](http://www.purelyfunctional.tv).
 
-Eric houdt ook een blog bij, [LispCast](http://www.lispcast.com), en biedt ook online mentoring via [PurelyFunctional.tv](http://www.purelyfunctional.tv).
-
-<img src="http://www.lispcast.com/img/Logo@2x.png" width=200/>
+<img src="http://www.lispcast.com/img/Logo@2x.png" width=150/>
 
 ## Community
+
+De Clojure community is een relatief kleine community. Echter, Clojurians zijn actief en behulpzaam, zoals je zult ondervinden bij onderstaande initiatieven.
 
 ### [Google Groups](https://groups.google.com/forum/#!forum/clojure)
 
 Het Clojure forum, gehost door Google Groups.
 
-<img src="http://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width=200/>
+<img src="http://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width=150/>
+
+### [Stack Overflow](http://stackoverflow.com/questions/tagged/clojure)
+
+Tagged questions voor Clojure op Stack Overflow.
+
+<img src="http://stackoverflow.com/" width=200/>
 
 ### IRC
 
@@ -193,4 +257,4 @@ Het Clojure forum, gehost door Google Groups.
 
 Met op dit moment 3762 geregistreerde slackers.
 
-<img src="https://slack.com/img/slack_hash_128.v1442100037.png"/>
+<img src="http://slack.com/img/slack_hash_128.v1442100037.png" width=100/>
