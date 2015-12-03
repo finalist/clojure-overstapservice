@@ -36,6 +36,8 @@ Je kunt Clojure direct uitproberen, via de website [Try Clojure](http://www.tryc
 
 <a href="http://www.tryclj.com"><img src="http://learn-clojure.com/images/try_clojure.png"/></a>
 
+Een ClojureScript versie van de REPL kun hier proberen via [clojurescript.io](http://www.clojurescript.io).
+
 Er is ook een mobiele app, namelijk [Replete](http://blog.fikesfarm.com/posts/2015-07-20-ios-clojurescript-repl-available-in-app-store.html) voor iOS. De Android-versie heet [Replicator](http://tahmid.me/posts/2015-07-15-bootstrapped-cljs-repl-for-android.html) en zal binnenkort verschijnen.
 
 <img src="http://blog.fikesfarm.com/img/replete-screenshot.png" width=200/>
