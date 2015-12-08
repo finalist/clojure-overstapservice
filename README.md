@@ -198,11 +198,9 @@ Laatste editie: 16-18 november, 2015 in Philadelphia (Pennsylvania, USA).
 
 ### [Clojure eXchange](https://skillsmatter.com/conferences/6861-clojure-exchange-2015)
 
-Laatste editie: 4-5 december, Londen (UK)
+Laatste editie: 3-4 december, 2015 in Londen (UK)
 
-[ClojureX 2014 videos](https://skillsmatter.com/conferences/1956-clojure-exchange-2014#skillscasts)
-
-Volgende editie: 3-4 december, Londen (UK)
+[ClojureX 2015 videos](https://skillsmatter.com/conferences/6861-clojure-exchange-2015#skillscasts)
 
 ## Videos
 
@@ -287,6 +285,6 @@ Tagged questions voor Clojure op Stack Overflow.
 
 ### [Clojurians](http://clojurians.net) Slack Chat
 
-Met op dit moment 3762 geregistreerde slackers.
+Met op dit moment 3946 geregistreerde slackers.
 
 <img src="http://slack.com/img/slack_hash_128.v1442100037.png" width=75/>
