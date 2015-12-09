@@ -16,7 +16,7 @@ Clojure is dan een prima, volwassen alternatief, want:
 * Clojure voorkomt callback hell
 * Clojure ... etc
 
-Waarom dit zo is kun je lezen in het [artikel](Alternatief.md) dat op 1 december 2015 is verschenen in Java Magazine.
+Waarom dit zo is kun je lezen in [dit artikel](Alternatief.md).
 
 Als je daadwerkelijk die overstap wil maken, dan zijn hier wat pointers die je daarbij zouden kunnen helpen.
 
@@ -285,6 +285,6 @@ Tagged questions voor Clojure op Stack Overflow.
 
 ### [Clojurians](http://clojurians.net) Slack Chat
 
-Met op dit moment 3946 geregistreerde slackers.
+Met op dit moment 3954 geregistreerde slackers.
 
 <img src="http://slack.com/img/slack_hash_128.v1442100037.png" width=75/>
