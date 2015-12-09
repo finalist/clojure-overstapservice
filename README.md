@@ -16,7 +16,7 @@ Clojure is dan een prima, volwassen alternatief, want:
 * Clojure voorkomt callback hell
 * Clojure ... etc
 
-Waarom dit zo is kun je lezen in het [artikel](JavaMagazine-20151201.md) dat op 1 december 2015 is verschenen in Java Magazine.
+Waarom dit zo is kun je lezen in het [artikel](Alternatief.md) dat op 1 december 2015 is verschenen in Java Magazine.
 
 Als je daadwerkelijk die overstap wil maken, dan zijn hier wat pointers die je daarbij zouden kunnen helpen.
 
