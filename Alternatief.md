@@ -7,7 +7,7 @@ Dit jaar vieren we het 20-jarige bestaan van Java, de populairste programmeertaa
 
 En zo kwam het dus dat vele programmeurs de overstap naar Java maakten, waarmee de eerste helft van het verlichtingspad werd afgelegd. Dit artikel gaat over dat tweede gedeelte, de overstap naar Lisp – of in ieder geval: een lisp, volgens Steele het toppunt van productiviteit.
 
-De lisp waar we het over hebben is Clojure, de programmeertaal voor de JVM die in 2007 werd geintroduceerd door Rich Hickey. Op de Java One van vorig jaar mocht Hickey een [praatje](https://www.youtube.com/watch?v=VSdnJDO-xdg) houden, waar hij begon met de volgende [quote](http://thenewstack.io/the-new-stack-makers-adrian-cockcroft-on-sun-netflix-clojure-go-docker-and-more/):
+De lisp waar we het over hebben is Clojure, de programmeertaal voor de JVM die in 2007 werd geintroduceerd door Rich Hickey. Op de Java One van 2014 mocht Hickey een [praatje](https://www.youtube.com/watch?v=VSdnJDO-xdg) houden, waar hij begon met de volgende [quote](http://thenewstack.io/the-new-stack-makers-adrian-cockcroft-on-sun-netflix-clojure-go-docker-and-more/):
 
 > "A lot of the best programmers and the most productive programmers I know are writing everything in Clojure and swearing by it, and then just producing ridiculously sophisticated things in a very short time. And that programmer productivity matters."
 > -- Adrian Cockroft, (voormalig) Netflix
@@ -46,11 +46,13 @@ Een klein voorbeeld. In de [Ring](https://github.com/ring-clojure) library, waar
 
 De namespace waarin we deze handler definiëren heeft geen afhankelijkheid van de Ring-library. Het enige wat we hoeven te weten is hoe een request er in Ring uitziet, dus welke keys we in de hashmap kunnen verwachten en welke keys we terug moeten geven om een geldige response te kunnen vormen. Alles wat tussen request en response gebeurt is niets anders dan rekenen met normale hashmaps. Dat is toch een stuk eenvoudiger dan het werken met `HttpServletRequest` en `HttpServletResponse`.
 
-## 3. Minder regels code
+## 3. Clojure vergt minder regels code
 
 Met Clojure heb je geen last van de overhead die object-georiënteerde talen met zich meebrengen. Overhead die bestaat uit het schrijven van interface- en implementatiecode om je datastructuren te ‘beschermen’. Je hebt dus minder Clojure-regels dan Java-regels nodig om precies hetzelfde te bereiken. 
 
 Maar dat is niet de enige reden waarom je minder regels code nodig hebt. Clojure is immers een __functionele programmeertaal__, en daarvan weten we dat ze expressiever zijn dan imperatieve programmeertalen, zoals Java. Zo hoef je geen loops of iteraties uit te schrijven omdat het volstaat om _higher order_ functies, zoals map, filter en reduce, toe te passen op je collecties. Ter vergelijking laten we een voorbeeld zien hoe je kunt bepalen of een String volledig uit whitespace-karakters bestaat op de imperatieve Java-manier en op de functionele Clojure-wijze, ontleend aan het boek van Stuart Halloway, _Programming Clojure_ (2nd edition, 2013).
+
+TODO: dit voorbeeld vervangen door wat anders, omdat het nu in Java 8 net zo kort kan
 
 Java:
 
@@ -117,7 +119,7 @@ Dit alles maakt Clojure uitermate geschikt voor live coding. Je kan met Clojure 
 Hoe je het ook wendt of keert, Java is niet full stack, het is een taal voor de back-end. Wel is geprobeerd om een plekje te veroveren aan de client side, maar wie ontwikkelt er tegenwoordig nog applicaties in AWT, Swing of JavaFX? Evenzo is Clojure begonnen als  alternatief voor back-end, maar met de komst van ClojureScript, en een hoop front-end libraries en tools kun je nu recht spreken van een full stack programmeertaal. Bovendien biedt de stack interessante elementen waarmee full stack ontwikkeling aanzienlijk kan worden verbeterd. 
 
 ### React
-Met de komst van JavaScript library React is het bouwen van een SPA (single page app) in ClojureScript een fluitje van een cent. Reagent is een ClojureScript library die het schrijven van React-componenten vergemakkelijkt. Door middel van Hiccup-notatie, waarmee je uit een geneste Clojure-datastructuur HTML kan beschrijven en reactieve atoms, kun je met relatief weinig code een React-component schrijven. 
+Met de komst van JavaScript library React is het bouwen van een SPA (single page app) in ClojureScript een fluitje van een cent. Reagent is een ClojureScript library die het schrijven van React-componenten vergemakkelijkt. Door middel van Hiccup-notatie, waarmee je uit een geneste Clojure-datastructuur HTML kan beschrijven, kun je met relatief weinig code een React-component schrijven. 
 
 Dit is een voorbeeld van een component wat het aantal clicks telt op een knop en dit toont in een div:  
 
@@ -138,7 +140,7 @@ Dit is een voorbeeld van een component wat het aantal clicks telt op een knop en
 
 Met Om, een andere ClojureScript wrapper rondom React, zijn zelfs betere performance benchmarks gehaald dan React zelf. Dit heeft te maken met de efficiënte manier waarop verschillen in state kan worden bepaald in ClojureScript (maar ook in Clojure zelf).
 
-## 7. Geen callback hell
+## 7. Clojure voorkomt callback hell
 
 Een van de problemen waar JavaScript-developers mee worstelen is het fenomeen callback hell. Een browser heeft maar één thread. Daarom moeten we werken met geneste callbacks. Als we callbacks  diep nesten, wordt de code steeds slechter leesbaar. 
 
