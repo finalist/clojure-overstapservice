@@ -52,7 +52,7 @@ Met Clojure heb je geen last van de overhead die object-georiënteerde talen met
 
 Maar dat is niet de enige reden waarom je minder regels code nodig hebt. Clojure is immers een __functionele programmeertaal__, en daarvan weten we dat ze expressiever zijn dan imperatieve programmeertalen. Zo hoef je geen loops of iteraties uit te schrijven omdat het volstaat om _higher order_ functies, zoals map, filter en reduce, toe te passen op je collecties. Sinds versie 8 beschikt Java over lambda's en de Streams API. De winst van functioneel programmeren ten op zichte van Java 7 is al vrij snel voelbaar zodra je met transformaties over collecties aan de slag gaat.
 
-Omdat Clojure een lisp is, kun je boilerplate-code voorkomen door gebruik te maken van __macro’s__. Macros zijn functies die compile-time worden uitgevoerd en als argument expressie kunnen ontvangen. Expressies worden gerepresenteerd als data, die je ook kunt transformeren met behulp van Clojure-functies.  Dit komt dus neer op code-generatie, zodat je boilerplate niet zelf hoeft te schrijven.  
+Omdat Clojure een lisp is, kun je boilerplate-code voorkomen door gebruik te maken van __macro’s__. Macros zijn functies die compile-time worden uitgevoerd en als argumenten expressies kunnen ontvangen. Expressies worden gerepresenteerd als data, die je ook kunt transformeren met behulp van Clojure-functies.  Dit komt dus neer op code-generatie, zodat je boilerplate niet zelf hoeft te schrijven.  
 
 De website [TodoBackend](http://www.todobackend.com/) bevat vergelijkbare implementaties van een Todo-list-API. Als we de implementatie in Clojure afzetten tegen de implementaties in Java 7 en 8 zien we het volgende:
 
