@@ -58,7 +58,9 @@ De website [TodoBackend](http://www.todobackend.com/) bevat vergelijkbare implem
 
 * Clojure: 168 regels Clojure (inclusief buildconfiguratie)
 * Java 7 + Spring MVC:  555 regels XML, 228 regels Java, 56 regels Groovy
-* Java 8 + Spring 4 Boot: 200 regels Java, 37 regels Groovy 
+* Java 8 + Spring 4 Boot: 200 regels Java, 37 regels Groovy
+
+We hebben hier het aantal regels code van de gebruikte libraries en frameworks niet meegeteld. Onze verwachting is dat Clojure er dan nog beter van af zou komen.
 
 De voordelen van minder regels code zijn evident: kleinere programma’s hebben minder bugs, zijn beter te begrijpen en zijn door de eenvoud ook robuuster.
 
