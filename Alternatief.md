@@ -50,36 +50,15 @@ De namespace waarin we deze handler definiëren heeft geen afhankelijkheid van d
 
 Met Clojure heb je geen last van de overhead die object-georiënteerde talen met zich meebrengen. Overhead die bestaat uit het schrijven van interface- en implementatiecode om je datastructuren te ‘beschermen’. Je hebt dus minder Clojure-regels dan Java-regels nodig om precies hetzelfde te bereiken. 
 
-Maar dat is niet de enige reden waarom je minder regels code nodig hebt. Clojure is immers een __functionele programmeertaal__, en daarvan weten we dat ze expressiever zijn dan imperatieve programmeertalen, zoals Java. Zo hoef je geen loops of iteraties uit te schrijven omdat het volstaat om _higher order_ functies, zoals map, filter en reduce, toe te passen op je collecties. Ter vergelijking laten we een voorbeeld zien hoe je kunt bepalen of een String volledig uit whitespace-karakters bestaat op de imperatieve Java-manier en op de functionele Clojure-wijze, ontleend aan het boek van Stuart Halloway, _Programming Clojure_ (2nd edition, 2013).
-
-TODO: dit voorbeeld vervangen door wat anders, omdat het nu in Java 8 net zo kort kan
-
-Java:
-
-```java
-public class StringUtils {   
-  public static boolean isBlank(String str) {     
-    int strLen;     
-    if (str == null || (strLen = str.length()) == 0) {       
-      return true;      
-    }     
-    for (int i = 0; i < strLen; i++) {       
-      if ((Character.isWhitespace(str.charAt(i)) == false)) {   
-        return false;        
-      }     
-    }     
-    return true;    
-  } 
-}
-```
-
-Clojure:
-
-```clojure
-(defn blank? [s] (every? (fn [c] (Character/isWhitespace c)) s))
-```
+Maar dat is niet de enige reden waarom je minder regels code nodig hebt. Clojure is immers een __functionele programmeertaal__, en daarvan weten we dat ze expressiever zijn dan imperatieve programmeertalen. Zo hoef je geen loops of iteraties uit te schrijven omdat het volstaat om _higher order_ functies, zoals map, filter en reduce, toe te passen op je collecties. Sinds versie 8 beschikt Java over lambda's en de Streams API. De winst van functioneel programmeren ten op zichte van Java 7 is al vrij snel voelbaar zodra je met transformaties over collecties aan de slag gaat.
 
 Omdat Clojure een lisp is, kun je boilerplate-code voorkomen door gebruik te maken van __macro’s__. Macros zijn functies die compile-time worden uitgevoerd en als argument expressie kunnen ontvangen. Expressies worden gerepresenteerd als data, die je ook kunt transformeren met behulp van Clojure-functies.  Dit komt dus neer op code-generatie, zodat je boilerplate niet zelf hoeft te schrijven.  
+
+De website [TodoBackend](http://www.todobackend.com/) bevat vergelijkbare implementaties van een Todo-list-API. Als we de implementatie in Clojure afzetten tegen de implementaties in Java 7 en 8 zien we het volgende:
+
+* Clojure: 168 regels Clojure (inclusief buildconfiguratie)
+* Java 7 + Spring MVC:  555 regels XML, 228 regels Java, 56 regels Groovy
+* Java 8 + Spring 4 Boot: 200 regels Java, 37 regels Groovy 
 
 De voordelen van minder regels code zijn evident: kleinere programma’s hebben minder bugs, zijn beter te begrijpen en zijn door de eenvoud ook robuuster.
 
