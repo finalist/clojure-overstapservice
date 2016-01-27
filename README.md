@@ -277,7 +277,7 @@ Het Clojure forum, gehost door Google Groups.
 
 Tagged questions voor Clojure op Stack Overflow.
 
-<img src="https://upload.wikimedia.org/wikipedia/en/9/95/Stack_Overflow_website_logo.png" width=150/>
+<img src="http://sstatic.net/stackexchange/img/logos/so/so-icon.png?v=c78bd457575a" width=150/>
 
 ### IRC
 
@@ -285,6 +285,6 @@ Tagged questions voor Clojure op Stack Overflow.
 
 ### [Clojurians](http://clojurians.net) Slack Chat
 
-Met op dit moment 3954 geregistreerde slackers.
+Met op dit moment 4745 geregistreerde slackers.
 
 <img src="http://slack.com/img/slack_hash_128.v1442100037.png" width=75/>
